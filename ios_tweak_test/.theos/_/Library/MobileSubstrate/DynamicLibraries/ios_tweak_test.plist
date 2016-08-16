@@ -1,0 +1,7 @@
+{
+	Filter = {
+		Bundles = (
+			"com.broccoliii.ios-hack-demo",
+		);
+	};
+}

@@ -1,0 +1,9 @@
+Package: com.broccoliii.ios-hack-demo
+Name: ios_tweak_test
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: broccoliii
+Author: broccoliii
+Section: Tweaks
