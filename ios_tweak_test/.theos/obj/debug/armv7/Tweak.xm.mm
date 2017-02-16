@@ -24,21 +24,14 @@
 static void (*_logos_orig$_ungrouped$ViewController$changeBackgroundColor)(_LOGOS_SELF_TYPE_NORMAL ViewController* _LOGOS_SELF_CONST, SEL); static void _logos_method$_ungrouped$ViewController$changeBackgroundColor(_LOGOS_SELF_TYPE_NORMAL ViewController* _LOGOS_SELF_CONST, SEL); 
 
 #line 1 "Tweak.xm"
+#import "ViewController.h"
 
 
 static void _logos_method$_ungrouped$ViewController$changeBackgroundColor(_LOGOS_SELF_TYPE_NORMAL ViewController* _LOGOS_SELF_CONST self, SEL _cmd) {
- 	[_readButton setBackgroundColor:[UIColor redColor]];
-    UIAlertController *alerView = [UIAlertController alertControllerWithTitle:@"提示"
-                                                                      message:@"已经被HOOK"
-                                                               preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *cancelAction =[UIAlertAction actionWithTitle:@"取消"
-                                                          style:UIAlertActionStyleCancel
-                                                        handler:nil];
-    [alerView addAction:cancelAction];
-    [self presentViewController:alerView animated:YES completion:nil];    
+    self.view.backgroundColor = [UIColor blueColor];  
 }
 
 
 static __attribute__((constructor)) void _logosLocalInit() {
 {Class _logos_class$_ungrouped$ViewController = objc_getClass("ViewController"); if (_logos_class$_ungrouped$ViewController) {MSHookMessageEx(_logos_class$_ungrouped$ViewController, @selector(changeBackgroundColor), (IMP)&_logos_method$_ungrouped$ViewController$changeBackgroundColor, (IMP*)&_logos_orig$_ungrouped$ViewController$changeBackgroundColor);} else {HBLogError(@"logos: nil class %s", "ViewController");}} }
-#line 16 "Tweak.xm"
+#line 9 "Tweak.xm"

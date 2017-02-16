@@ -27,7 +27,6 @@
 }
 
 - (void)changeBackgroundColor {
-    [_readButton setBackgroundColor:[UIColor redColor]];
     UIAlertController *alerView = [UIAlertController alertControllerWithTitle:@"提示"
                                                                       message:@"未被HOOK"
                                                                preferredStyle:UIAlertControllerStyleAlert];

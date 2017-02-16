@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5A1A81FF50A79D7C5C6E45493648694FCF256500",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2ADE6DD5FE3F220904FC8623C0EDE339BC93A3D6" : 0,
+    "5A1A81FF50A79D7C5C6E45493648694FCF256500" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5634E185-A8F0-4E25-B7C7-83692A52D8D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2ADE6DD5FE3F220904FC8623C0EDE339BC93A3D6" : "",
+    "5A1A81FF50A79D7C5C6E45493648694FCF256500" : "iOS_hack_demo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ios_hack_demo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios_hack_demo\/ios_hack_demo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/broccolii\/LoadingView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2ADE6DD5FE3F220904FC8623C0EDE339BC93A3D6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/broccolii\/iOS_hack_demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A1A81FF50A79D7C5C6E45493648694FCF256500"
+    }
+  ]
+}
